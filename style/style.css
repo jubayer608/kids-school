@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-flex{
+    display: flex;
+}
+.name{
+    align-items: center;
+}
+.name img{
+    width: 100%;
+}
+.navbar{
+    width: 1440px;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+   padding-left: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.school{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: start;
+}
+.btn-primary{
+    width: 190px;
+    background-color: rgb(254, 163, 1);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+#color-1{
+        color: rgb(254, 163, 1);
+}
+#color-2{
+    color: rgb(1, 172, 253);
+}
+#color-3{
+    color: rgb(5, 212, 223);
+}
+#color-4{
+    color: rgb(93, 88, 239);
+}
+.navbar, .banner{
+    margin: 0 auto;
+}
+.banner{
+    width: 1440px;
+    align-items: center;
+    gap: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+#color-5{
+   color: rgb(254, 163, 1);
+}
+#color-6{
+    color: rgb(1, 172, 253);
+}
+#color-7{
+    color: rgb(17, 17, 17);
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgb(17, 17, 17);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.btn-banner{
+    width: 190px;
+    border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+}
+.banner-picture{
+    width: 70%;
+}
+
+
+
