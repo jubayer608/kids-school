@@ -102,10 +102,11 @@
     border: none;
 }
 .banner-picture{
-    width: 70%;
+    width: 100%;
 }
 .card{
     max-width: 1440px;
+    background-image: url("../assets/bg.png");
 }
 .card-title{
     /* display: flex;
@@ -121,7 +122,7 @@
     padding: 60px 0px 80px 0px;
 }
 .card-container{
-    background-image: url("../assets/bg.png");
+    
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -200,5 +201,213 @@
    font-size: 0.9rem;
    font-weight: 700;
 }
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.stories{
+    max-width: 1440px;
+    background-image: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    
+}
+.stories-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 700;
+    font-size: 2.8rem;
+    padding: 60px 0px 80px 0px;
+}
+.stories-container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+.stories-1{  
+    width: 540;
+    height: 630px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.pic-1{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+#btn-1{
+    position: relative;
+    width: 174px;
+    border-radius: 47px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 14px 18px;
+    border: none;
+    left: 38px;
+    top: -30px;
+}
+.stories1-title{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+     padding-top: 60px;
+     padding-bottom: 38px;
+     padding-left: 30px;
+}
+.stories1-description{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-left: 38px;
+}
+.stories-2{
+    width: 290px;
+    height: 301px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.btn-2{
+    position: relative;
+    width: 174px;
+    border-radius: 47px;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 14px 18px;
+    border: none;
+    left: 38px;
+    top: -30px;
+    
+}
+.stories2-title{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left: 38px;
+}
+.stories-3{
+    width: 290px;
+    height: 301px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+#btn-3{
+    position: relative;
+    width: 174px;
+    border-radius: 47px;
+    background: rgb(93, 88, 240);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 14px 18px;
+    border: none;
+    left: 38px;
+    top: -30px;
+}
+.stories-4{
+    width: 290px;
+    height: 301px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.stories-5{
+    width: 290px;
+    height: 301px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.viewall{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+#jubu{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.footer{
+    max-width: 1440px;
+     max-height: 519px;
+    background: rgb(1, 172, 253);
+    padding: 123px 228px 174px 140px;
+}
+.footer-name{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
 
-
+}
+.footer-container{
+    justify-content: space-evenly;
+}
+.footer-description{
+    color: rgb(255, 255, 255);
+ font-size: 1.25rem;
+ font-weight: 400;
+ padding-top: 35px;
+}
+.kids{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.link-name{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+.link-item{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.icon-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 400;
+    gap: 10px;
+}
+#footer-logo{
+    max-width: 80px;
+    max-height: 80px;
+}
