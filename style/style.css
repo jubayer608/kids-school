@@ -19,10 +19,10 @@
     align-items: center;
 }
 .name img{
-    width: 100%;
+    max-width: 100%;
 }
 .navbar{
-    width: 1160px;
+    /* max-width: 1160px; */
     justify-content: space-between;
     padding: 20px 0px 20px 0px;
     align-items: center;
@@ -42,7 +42,7 @@
     text-align: start;
 }
 .btn-primary{
-    width: 190px;
+    max-width: 190px;
     background-color: rgb(254, 163, 1);
     border-radius: 12px;
     color: rgb(255, 255, 255);
@@ -65,9 +65,10 @@
 }
 .navbar, .banner{
     margin: 0 auto;
+    max-width: 1160px;
 }
 .banner{
-    width: 1160px;
+    /* max-width: 1160px; */
     align-items: center;
     gap: 50px;
 }
@@ -92,7 +93,7 @@
     margin-bottom: 24px;
 }
 .btn-banner{
-    width: 190px;
+    max-width: 190px;
     border-radius: 12px;
     background-color: rgb(17, 17, 17);
     padding: 10px;
@@ -101,8 +102,8 @@
     font-weight: 700;
     border: none;
 }
-.banner-picture{
-    width: 100%;
+ .banner-picture{
+    max-width: 100%;
 }
 .card{
     max-width: 1440px;
@@ -126,13 +127,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     gap: 30px;
     padding-bottom: 80px;
 }
 .card-item1{
-    width: 367.8px;
-    height: 476.78px;
+    width: 367px;
+    height: 476px;
     flex-direction: row;
     align-items: center;
     text-align: center;
@@ -192,14 +193,14 @@
 #link2{
     color: rgb(240, 170, 0);
     text-decoration: none;
-   font-size: 0.9rem;
-   font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 #link3{
     color: rgb(135, 0, 255);
     text-decoration: none;
-   font-size: 0.9rem;
-   font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 .group{
     display: flex;
@@ -224,6 +225,7 @@
     padding: 60px 0px 80px 0px;
 }
 .stories-container{
+    max-width: 1160px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -232,20 +234,20 @@
     padding-bottom: 80px;
 }
 .stories-1{  
-    width: 540;
-    height: 630px;
+    max-width: 540px;
+    max-height: 630px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     flex-direction: row;
     box-sizing: border-box;
 }
 .pic-1{
-    width: 100%;
+    max-width: 100%;
     border-radius: 16px 16px 0px 0px;
 }
 #btn-1{
     position: relative;
-    width: 174px;
+    max-width: 174px;
     border-radius: 47px;
     background: rgb(60, 216, 232);
     color: rgb(255, 255, 255);
@@ -261,27 +263,29 @@
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: 700;
-     padding-top: 60px;
-     padding-bottom: 38px;
-     padding-left: 30px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    padding-left: 30px;
 }
 .stories1-description{
     color: rgb(102, 102, 102);
     font-family: Raleway;
     font-size: 0.9rem;
     font-weight: 500;
-    padding-left: 38px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .stories-2{
-    width: 290px;
-    height: 301px;
+    max-width: 290px;
+    max-height: 301px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .btn-2{
     position: relative;
-    width: 174px;
+    max-width: 174px;
     border-radius: 47px;
     background: rgb(149, 178, 38);
     color: rgb(255, 255, 255);
@@ -296,20 +300,20 @@
 }
 .stories2-title{
     color: rgb(0, 0, 0);
-    font-family: Quicksand;
     font-size: 0.9rem;
     font-weight: 700;
     padding-left: 38px;
+    padding-bottom: 10px;
 }
 .stories-3{
-    width: 290px;
-    height: 301px;
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
+   max-width: 290px;
+   max-height: 301px;
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
 }
 #btn-3{
     position: relative;
-    width: 174px;
+    max-width: 174px;
     border-radius: 47px;
     background: rgb(93, 88, 240);
     color: rgb(255, 255, 255);
@@ -322,17 +326,17 @@
     top: -30px;
 }
 .stories-4{
-    width: 290px;
-    height: 301px;
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-    margin-bottom: 20px;
+   max-width: 290px;
+   max-height: 301px;
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
+   margin-bottom: 10px;
 }
 .stories-5{
-    width: 290px;
-    height: 301px;
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
+   max-width: 290px;
+   max-height: 301px;
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
 }
 .viewall{
     display: flex;
@@ -352,7 +356,7 @@
 }
 .footer{
     max-width: 1440px;
-     max-height: 519px;
+    /* max-height: 519px; */
     background: rgb(1, 172, 253);
     padding: 123px 228px 174px 140px;
 }
@@ -400,8 +404,8 @@
     margin-bottom: 32px;
 }
 .icon{
-    width: 20px;
-    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
     font-weight: 400;
@@ -410,4 +414,73 @@
 #footer-logo{
     max-width: 80px;
     max-height: 80px;
+}
+.rp-nav{
+    display: none;
+    border: 1px solid #FEA301;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.rp-logo{
+    justify-content: space-between;
+}
+@media  screen and (max-width:576px) {
+    .navbar,.name,.nav-links,.banner{
+        flex-direction:  column-reverse;
+    }
+    .navbar{
+        display: none;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .stories-1{
+        display: none;
+    }
+    .footer{
+        padding:30px 10px 60px 20px;
+    }
+    .group{
+        display: none;
+    } 
+    marquee{
+        display: none;
+    }
+    .rp-nav{
+        display: block;
+        
+    }
+    .rp-logo{
+        justify-content: space-between;
+    }
+    .banner-title{
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        font-size: 2.5rem;
+    }
+    .banner-description{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .btn-banner{
+        margin-left: 130px;
+        margin-right: 130px;
+
+    }
+    .card-title{
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .link-name{
+        margin-top: 10px;
+    }
+    
+          
 }
